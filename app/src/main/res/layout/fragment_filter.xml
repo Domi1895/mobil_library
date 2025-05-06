@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <!-- Görgethető tartalom -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Cím -->
+                <TextView
+                    android:id="@+id/text_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/filter_function"
+                    android:textSize="20sp" />
+
+                <!-- Nyelv szerinti szűrés -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/by_language"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/language_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/language_hu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/hungarian" />
+
+                    <RadioButton
+                        android:id="@+id/language_en"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/english" />
+
+                    <RadioButton
+                        android:id="@+id/language_de"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/german" />
+
+                    <RadioButton
+                        android:id="@+id/language_jp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/japanese" />
+
+                    <RadioButton
+                        android:id="@+id/language_cn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/chinese" />
+
+                    <RadioButton
+                        android:id="@+id/language_sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/spanish" />
+
+                    <RadioButton
+                        android:id="@+id/language_sg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/scottish_gaelic" />
+                </RadioGroup>
+
+                <!-- Kategóriák szerinti szűrés -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/categories"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/category_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/other" />
+
+                    <CheckBox
+                        android:id="@+id/category_esoterics"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/esotericism" />
+
+                    <CheckBox
+                        android:id="@+id/category_healthy_lifestyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/healthy_lifestyle" />
+
+                    <CheckBox
+                        android:id="@+id/category_psychology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/psychology" />
+
+                    <CheckBox
+                        android:id="@+id/category_animals"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/animals" />
+
+                    <CheckBox
+                        android:id="@+id/category_dinosaurs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/prehistoric_animals" />
+
+                    <CheckBox
+                        android:id="@+id/category_hobby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/hobby" />
+
+                    <CheckBox
+                        android:id="@+id/category_weapons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/weapons" />
+
+                    <CheckBox
+                        android:id="@+id/category_history"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/history" />
+
+                    <CheckBox
+                        android:id="@+id/category_foreign_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/foreign_language" />
+
+                    <CheckBox
+                        android:id="@+id/category_language_books"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/language" />
+
+                    <CheckBox
+                        android:id="@+id/category_travel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/travel" />
+
+                    <CheckBox
+                        android:id="@+id/category_science"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/science" />
+                </LinearLayout>
+
+                <!-- Állapot szerinti szűrés -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/condition"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/condition_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/condition_new"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/new_book" />
+
+                    <RadioButton
+                        android:id="@+id/condition_used"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/second_hand" />
+                </RadioGroup>
+
+                <!-- Státusz szerinti szűrés -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/status"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/status_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/status_read"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/read" />
+
+                    <RadioButton
+                        android:id="@+id/status_not_read"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/unread" />
+
+                    <RadioButton
+                        android:id="@+id/status_in_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/in_progress" />
+                </RadioGroup>
+
+                <!-- Kinél van szűrés -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/where_is_it"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/person_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/person_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/m" />
+
+                    <RadioButton
+                        android:id="@+id/person_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/d" />
+                </RadioGroup>
+
+                <!-- E-Book vagy sima -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/type"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/type_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/type_e_book"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/e_book" />
+
+                    <RadioButton
+                        android:id="@+id/type_book"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"
+                        android:padding="8dp"
+                        android:text="@string/book" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/cancel" />
+
+                    <Button
+                        android:id="@+id/buttonSave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/save" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

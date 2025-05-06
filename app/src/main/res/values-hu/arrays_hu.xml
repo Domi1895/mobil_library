@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>-</item>
+        <item>Egyéb</item>
+        <item>Ezotéria</item>
+        <item>Egészséges életmód</item>
+        <item>Pszichológia</item>
+        <item>Állatok</item>
+        <item>Ősállatok</item>
+        <item>Fegyverek</item>
+        <item>Történelem</item>
+        <item>Idegennyelvű</item>
+        <item>Nyelvkönyv</item>
+        <item>Utazás</item>
+        <item>Tudomány</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>-</item>
+        <item>Magyar</item>
+        <item>Angol</item>
+        <item>Német</item>
+        <item>Japán</item>
+        <item>Kínai</item>
+        <item>Spanyol</item>
+        <item>Skót gael</item>
+    </string-array>
+
+    <string-array name="statuses">
+        <item>-</item>
+        <item>Olvasott</item>
+        <item>Folyamatban</item>
+        <item>Nem olvasott</item>
+    </string-array>
+</resources>

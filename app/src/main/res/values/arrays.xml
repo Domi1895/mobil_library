@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>-</item>
+        <item>Other</item>
+        <item>Esotericism</item>
+        <item>Healthy Lifestyle</item>
+        <item>Psychology</item>
+        <item>Animals</item>
+        <item>Prehistoric Animals</item>
+        <item>Weapons</item>
+        <item>History</item>
+        <item>Foreign Language</item>
+        <item>Language Book</item>
+        <item>Travel</item>
+        <item>Science</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>-</item>
+        <item>Hungarian</item>
+        <item>English</item>
+        <item>German</item>
+        <item>Japanese</item>
+        <item>Chinese</item>
+        <item>Spanish</item>
+        <item>Scottish_gaelic</item>
+    </string-array>
+
+    <string-array name="statuses">
+        <item>-</item>
+        <item>Read</item>
+        <item>Currently Reading</item>
+        <item>Want to Read</item>
+    </string-array>
+</resources>

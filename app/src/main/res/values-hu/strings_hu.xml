@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- All layouts - xml -->
+    <string name="mobile_library">Mobil Könyvtár</string>
+    <string name="isbn_number">ISBN szám</string>
+    <string name="enter_the_books_title">Adja meg a könyv címét</string>
+    <string name="title">Cím</string>
+    <string name="author">Szerző</string>
+    <string name="enter_the_authors_name">Adja meg a szerző nevét</string>
+    <string name="release_date">Megjelenés dátuma</string>
+    <string name="format">ÉÉÉÉ formátum</string>
+    <string name="book_image">Könyv kép</string>
+    <string name="select_image_from_gallery">Kép kiválasztása a galériából</string>
+    <string name="capture_image_with_camera">Kép készítése kamerával</string>
+    <string name="category">Kategória</string>
+    <string name="language">Nyelv</string>
+    <string name="type">Típus</string>
+    <string name="printed">Nyomtatott</string>
+    <string name="digital">Digitális</string>
+    <string name="where_is_it">Kinél van</string>
+    <string name="who_has_it">Adja meg, kinél van a könyv</string>
+    <string name="second_hand">Használt</string>
+    <string name="new_book">Új</string>
+    <string name="condition">Állapot</string>
+    <string name="cancel">Mégse</string>
+    <string name="save">Mentés</string>
+    <string name="filter">Szűrés</string>
+    <string name="sort">Rendezés</string>
+    <string name="display">Megjelenítés</string>
+    <string name="add">Hozzáadás</string>
+    <string name="set_background">Háttér beállítása</string>
+    <string name="book_title">Könyv címe</string>
+    <string name="book_author">Könyv szerzője</string>
+    <string name="select_background">Válassz háttérképet</string>
+    <string name="filter_function">Szűrő funkció</string>
+    <string name="by_language">Nyelv szerint</string>
+    <string name="hungarian">Magyar</string>
+    <string name="english">Angol</string>
+    <string name="german">Német</string>
+    <string name="japanese">Japán</string>
+    <string name="chinese">Kínai</string>
+    <string name="spanish">Spanyol</string>
+    <string name="scottish_gaelic">Skót gael</string>
+    <string name="categories">Kategóriák</string>
+    <string name="other">Egyéb</string>
+    <string name="esotericism">Ezotéria</string>
+    <string name="healthy_lifestyle">Egészséges életmód</string>
+    <string name="psychology">Pszichológia</string>
+    <string name="animals">Állatok</string>
+    <string name="prehistoric_animals">Ősállatok</string>
+    <string name="hobby">Hobbi</string>
+    <string name="weapons">Fegyverek</string>
+    <string name="history">Történelem</string>
+    <string name="foreign_language">Idegennyelvű</string>
+    <string name="travel">Utazás</string>
+    <string name="science">Tudomány</string>
+    <string name="status">Státusz</string>
+    <string name="read">Olvasott</string>
+    <string name="unread">Nem olvasott</string>
+    <string name="in_progress">Folyamatban van</string>
+    <string name="m">M</string>
+    <string name="d">D</string>
+    <string name="e_book">E-Könyv</string>
+    <string name="book">Könyv</string>
+    <string name="sort_function">Rendezés funkció</string>
+    <string name="sort_option">Rendezési opciók</string>
+    <string name="title_a_z">Cím szerint A-Z</string>
+    <string name="title_z_a">Cím szerint Z-A</string>
+    <string name="author_a_z">Szerző szerint A-Z</string>
+    <string name="author_z_a">Szerző szerint Z-A</string>
+    <string name="by_release_date_ascending">Megjelenés dátuma szerint növekvő</string>
+    <string name="by_release_date_descending">Megjelenés dátuma szerint csökkenő</string>
+    <string name="list">Lista</string>
+    <string name="grid">Rács</string>
+
+    <!-- AddBookActivity -->
+    <string name="add_new_book">Könyv hozzáadása</string>
+    <string name="update_book">Könyv módosítása</string>
+    <string name="nothing_saved">Nincs mentés</string>
+    <string name="permissions_granted">Engedélyek megadva</string>
+    <string name="permissions_denied">Engedélyek megtagadva</string>
+    <string name="scan_successful">Sikeres szkennelés: %1$s</string>
+    <string name="scan_cancelled">Szkennelés megszakítva</string>
+    <string name="title_and_author_empty">A cím és a szerző mezők nem lehetnek üresek!</string>
+    <string name="invalid_date_format">Kérem, adja meg a dátumot helyes formátumban (ÉÉÉÉ)!</string>
+    <string name="no_camera_app_available">Nincs elérhető kamera alkalmazás!</string>
+    <string name="image_copy_error">Hiba a kép másolása közben</string>
+    <string name="fetch_starting_isbn">Lekérés indítva ISBN-nel: %1$s</string>
+    <string name="unknown_title">Ismeretlen cím</string>
+    <string name="unknown_author">Ismeretlen szerző</string>
+    <string name="book_saved_successfully">Könyv mentése sikeres</string>
+    <string name="book_already_exists">Ez a könyv már el van mentve</string>
+    <string name="no_book_data_found">Nem található könyv adat</string>
+    <string name="book_fetch_error">Hiba történt a könyv lekérésekor</string>
+
+    <!-- BackgroundSelectorFragment -->
+    <string name="background_saved">Háttérkép mentve!</string>
+    <string name="background_set_success">App háttér sikeresen beállítva.</string>
+    <string name="background_load_failed">Nem sikerült betölteni a képet.</string>
+
+    <!-- BookScanner -->
+    <string name="scan_isbn_prompt">ISBN szkennelése</string>
+
+    <!-- UpdateActivity -->
+    <string name="error_no_id">Hiba történt, nincs ID!</string>
+
+    <!-- FilterFragment -->
+    <string name="selected">kiválasztva</string>
+    <string name="deselected">törölve</string>
+    <!-- Nyelvek -->
+    <string name="language_hu">Magyar</string>
+    <string name="language_en">Angol</string>
+    <string name="language_de">Német</string>
+    <string name="language_jp">Japán</string>
+    <string name="language_cn">Kínai</string>
+    <string name="language_sp">Spanyol</string>
+    <string name="language_sg">Skót gael</string>
+    <!-- Kategóriák -->
+    <string name="category_other">Egyéb</string>
+    <string name="category_esoterics">Ezoterikus</string>
+    <string name="category_healthy_lifestyle">Egészséges életmód</string>
+    <string name="category_psychology">Pszichológia</string>
+    <string name="category_animals">Állatok</string>
+    <string name="category_dinosaurs">Dinoszauruszok</string>
+    <string name="category_hobby">Hobbi</string>
+    <string name="category_weapons">Fegyverek</string>
+    <string name="category_history">Történelem</string>
+    <string name="category_foreign_language">Idegen nyelvek</string>
+    <string name="category_language_books">Nyelvkönyvek</string>
+    <string name="category_travel">Utazás</string>
+    <string name="category_science">Tudomány</string>
+    <!-- Állapotok -->
+    <string name="condition_new">Új</string>
+    <string name="condition_used">Használt</string>
+    <!-- Státuszok -->
+    <string name="status_read">Olvasott</string>
+    <string name="status_not_read">Nem olvasott</string>
+    <string name="status_in_progress">Folyamatban van</string>
+    <!-- Személy -->
+    <string name="person_m">M</string>
+    <string name="person_d">D</string>
+    <!-- Általános -->
+    <string name="none_selected">Nincs kiválasztva</string>
+    <string name="no_books_found">Nincsenek könyvek</string>
+    <!-- Toast üzenetek -->
+    <string name="toast_language_selected">Kiválasztott nyelv: %1$s</string>
+    <string name="toast_category_action">Kategória %1$s %2$s</string>
+    <string name="toast_condition_selected">Kiválasztott állapot: %1$s</string>
+    <string name="toast_status_selected">Kiválasztott státusz: %1$s</string>
+    <string name="toast_person_selected">Kinél van: %1$s</string>
+
+    <!-- SortFragment -->
+    <!-- Rendezési opciók -->
+    <string name="sort_title_az">Cím szerint A-Z</string>
+    <string name="sort_title_za">Cím szerint Z-A</string>
+    <string name="sort_author_az">Szerző szerint A-Z</string>
+    <string name="sort_author_za">Szerző szerint Z-A</string>
+    <string name="sort_date_ascending">Megjelenés dátuma szerint növekvő</string>
+    <string name="sort_date_descending">Megjelenés dátuma szerint csökkenő</string>
+    <string name="sort_none_selected">Nincs kiválasztva</string>
+    <!-- Toast üzenetek -->
+    <string name="toast_sort_selected">Kiválasztott rendezési opció: %1$s</string>
+    <string name="toast_sort_cleared">Rendezés törölve</string>
+    <string name="toast_sort_not_selected">Kérlek válassz rendezési opciót!</string>
+
+    <!-- MainActivity -->
+    <string name="search">Keresés: %1$s</string>
+    <string name="delete_confirmation_title">Megerősítés</string>
+    <string name="delete_confirmation_message">Biztosan törölni szeretnéd ezt a könyvet?</string>
+    <string name="delete_confirmation_positive">Igen</string>
+    <string name="delete_confirmation_negative">Nem</string>
+    <string name="book_deleted">Könyv törölve</string>
+</resources>
